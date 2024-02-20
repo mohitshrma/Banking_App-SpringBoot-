@@ -1,3 +1,6 @@
+//DTO(Data Transfer Object) pattern is essential for transferring data between different layers or components of an application.
+// DTOs encapsulate and organize data, making communication between layers more efficient.
+
 package com.bankapplication.thejavaacademybank.dto;
 
 import lombok.AllArgsConstructor;
