@@ -1,9 +1,6 @@
 package com.bankapplication.thejavaacademybank.service.impl;
 
-import com.bankapplication.thejavaacademybank.dto.BankResponse;
-import com.bankapplication.thejavaacademybank.dto.CreditDebitRequest;
-import com.bankapplication.thejavaacademybank.dto.EnquiryRequest;
-import com.bankapplication.thejavaacademybank.dto.UserRequest;
+import com.bankapplication.thejavaacademybank.dto.*;
 
 public interface UserService {
 
@@ -14,5 +11,7 @@ public interface UserService {
     BankResponse creditAccount(CreditDebitRequest creditDebitRequest);
 
     BankResponse debitAccount(CreditDebitRequest creditDebitRequest);
+
+    BankResponse transfer(TransferRequest transferRequest);
 
 }
